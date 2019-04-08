@@ -1,0 +1,20 @@
+spring:
+  applicaiton:
+    name: ms-jogo-conta
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/jogo?serverTimezone=UTC
+    username: root
+    password: 123456
+    
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    
+fila-conta: fila-conta
